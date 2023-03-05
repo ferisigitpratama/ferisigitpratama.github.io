@@ -3,7 +3,7 @@ function checkLogin() {
 	var password = document.getElementById("password").value;
 
 	if (username === "admin" && password === "12345") {
-		window.location.href = "home.html";
+		document.getElementById("message").innerHTML = "Username atau password benaarrr!";
 	} else {
 		document.getElementById("message").innerHTML = "Username atau password salah!";
 	}
